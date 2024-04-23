@@ -1,0 +1,48 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hang-man</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script.js" defer type="module"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <h2>Hangman</h2>
+        </div>
+
+        <nav>
+          <ul>
+            <li>Chanse: <span class="chance">3</span></li>
+            <li>Wins: <span class="wins"></span></li>
+            <li>Losses: <span class="losses"></span></li>
+            <li>Guesses: <span class="guesses">9</span></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-main">
+        <div class="main-content main">
+          <h4 class="title">Good Luck</h4>
+          <h4 class="content-result">------</h4>
+          <button class="btn buttn">To start again</button>
+
+          <h4 class="used-letter"></h4>
+        </div>
+
+        <div class="hiden over">
+          <h5>GAME OVER</h5>
+          <button class="start">Start</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
